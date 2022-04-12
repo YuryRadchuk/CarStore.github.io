@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./fonts/font.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/09cd6d836d.js"></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./media/media.css">
+    <title>CarStore</title>
+
+</head>
+
+<body>
+   
+    <div class="parent">
+       <div class="hedader">
+        <div class="sideMenu">
+            <ul class="choice">
+                <li><a href=""><i class="fa fa-user" aria-hidden="true"></i>&nbsp; My Account</a></li>
+                <li><a href=""><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp; Cart</a></li>
+                <li><a href=""><i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp; Checkout</a></li>
+                <li><a href=""><i class="fa fa-search" aria-hidden="true" style="font-size:23px" ;></i>&nbsp; Search</a></li>
+            </ul>
+            <hr>
+            <div class="information">
+                <div class="label">
+                    <ul>
+                        <li>Car<span>Store</span></li>
+                        <li>B E S T &nbsp; C A R &nbsp; S E L L E R</li>
+                    </ul>
+                </div>
+                <!--                /*label*/-->
+                <div class="labelinfo">
+                    <ul>
+                        <li><i class="fa fa-mobile fa-spin fa-2x" aria-hidden="true"></i>&nbsp; &nbsp;&nbsp;<span>&nbsp; +380682003598</span> </li>
+                        <li>MON-FRI: 8:30AM-7:30PM; SAT-SUN: 9:30AM-4:30PM</li>
+                    </ul>
+                </div>
+                <ul class="labeladd">
+                    <li><a href=""><i class="fa fa-star" aria-hidden="true"></i><br>WISHLIST</a></li>
+                    <li><a href=""><i class="fa fa-car" aria-hidden="true"></i><br>COMPARE</a></li>
+                    <li><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i><br>MY CART</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--        breadcrumb-->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">HOME</a></li>
+                <li class="breadcrumb-item"><a href="services.html">SERVICES</a></li>
+                <li class="breadcrumb-item"><a href="about.html">ABOUT</a></li>
+                <li class="breadcrumb-item"><a href="reviews.html">REVIEWS</a></li>
+                <li class="breadcrumb-item"><a href="locations.html">LOCATIONS</a></li>
+                <li class="breadcrumb-item"><a href="contacts.html">CONTACTS</a></li>
+            </ol>
+        </nav>
+        <!--        CARS-->
+        <div class="cars">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/car1.jpg" alt="car1" style="width: 100%">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/car2.jpeg" alt="car2" style="width: 100%">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/car3.jpg" alt="car3" style="width: 100%">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/car4.jpg" alt="car4" style="width: 100%">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/car5.jpg" alt="car5" style="width: 100%">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <!--/*wrapper*/-->
+
+            <div class="wrapper">
+                <h1>TOP CARS ONLY</h1>
+                <div class="cols">
+                    <div class="col" ontouchstart="this.classList.toggle('hover');">
+                        <div class="container_wrapper">
+                            <div class="front" style="background-image: url(./img/BMW.jpg)">
+                                <div class="inner">
+                                    <p>BMW</p>
+                                    <span>Your lifestyle</span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <p>BMW has become a symbol of success and a paragon of driving pleasure. Each new model raises the quality bar even higher</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" ontouchstart="this.classList.toggle('hover');">
+                        <div class="container_wrapper">
+                            <div class="front" style="background-image:url(./img/AUDI.jpg)">
+                                <div class="inner">
+                                    <p>AUDI</p>
+                                    <span>Feel the progress</span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <p>“Progress rewrites its history” captures the essence of the transformation into a modern sports lifestyle with AUDI</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" ontouchstart="this.classList.toggle('hover');">
+                        <div class="container_wrapper">
+                            <div class="front" style="background-image: url(./img/MERCEDES-BENZ.jpg)">
+                                <div class="inner">
+                                    <p>MERCEDES-BENZ</p>
+                                    <span>Reach your goal</span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <p>Believe in your strengths, go towards your dream and achieve your goal together with MERCEDES-BENZ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" ontouchstart="this.classList.toggle('hover');">
+                        <div class="container_wrapper">
+                            <div class="front" style="background-image: url(./img/VOLVO.jpg)">
+                                <div class="inner">
+                                    <p>VOLVO</p>
+                                    <span>Pure innovation</span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <p>Sometimes the moments that never happen are the ones that matter most. Travel safely with VOLVO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--        /*PRODUCT*/-->
+        <div class="product">
+            <div class="headlights"><span>HEADLIGHTS</span><br><span>Headlights Projector, LED, Factory</span><img src="./img/headlights.png" alt="headlights" class="scale"></div>
+            <div class="brakes"><span>BRAKES</span><br><span>Brake system, Discs, Pads, Factory</span><img src=".//img/brakes.png" alt="brakes" class="scale"></div>
+        </div>
+        <div class="othersproduct">
+            <div class="rims"><img src="./img/labelrims.png" alt="labelrims"><img src="./img/rims3.png" alt="rims3" class="scale"><img src=".//img/rims.png" alt="rims" class="scale"><span>RIMS</span><br><span>Rims, Aluminum, Titanium, Factory</span></div>
+            <div class="carseat"><span>CAR SEATS</span><br><span>CAR SEATS, Sports, Factory </span><img src="./img/carseat.png" alt="carseat" class="scale"></div>
+        </div>
+
+        <!--/*Featured Products*/-->
+        <div class="featuredproducts">
+            <div class="nameproducts">FEATURED PRODUCTS<br>
+                <hr>
+            </div>
+            <div class="bloksproducts">
+                <div class="accessories"><a href="accessories.html"><img src="./img/accessories.png" alt="accessories" class="scale">ACCESSORIES</a>
+                    <div class="price">$300.00</div>
+                    <div class="stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                </div>
+                <div class="optics"><a href="optics.html"><img src="./img/optics.png" alt="optics" class="scale">OPTICS</a>
+                    <div class="price">$300.00</div>
+                    <div class="stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                </div>
+                <div class="sportsseats"><a href="sportsseats.html"><img src="./img/sportsseats.png" alt="sportsseats" class="scale">SPORTS&nbsp;SEATS</a>
+                    <div class="price">$300.00</div>
+                    <div class="stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                </div>
+                <div class="acoustics"><a href="acoustics.html"><img src="./img/acoustics.png" alt="acoustics" class="scale">ACOUSTICS</a>
+                    <div class="price">$300.00</div>
+                    <div class="stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                </div>
+                <div class="disks"><a href="disks.html"><img src="./img/disks.png" alt="disks" class="scale">DISKS</a>
+                    <div class="price">$300.00</div>
+                    <div class="stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <!--/*SALE*/-->
+        <div class="sale"><img src="./img/sale.png" alt="sale">
+            <table class="procent">
+                <tr>
+                    <th>25% OFF</th>
+                    <th>25% OFF</th>
+                </tr>
+                <tr>
+                    <th>ON ORDER OVER $999</th>
+                    <th>ON ORDER OVER $999</th>
+                </tr>
+                <tr>
+                    <th>This Offer is valid on all our items</th>
+                    <th>This Offer is valid on all our items</th>
+                </tr>
+                <tr>
+                    <th><a class="btn btn-primary" href="#" role="button">BUY NOW</a></th>
+                    <th><a class="btn btn-primary" href="#" role="button">BUY NOW</a></th>
+                </tr>
+            </table>
+            <div class="line"></div>
+        </div>
+        <!--    /*container*/-->
+        <div class="container">
+            <div class="quicklinks">
+                <div class="quicklinks1">
+                    <span>QUICK LINKS</span>
+                    <div class="list-group">
+                        <a href="" class="button">About Us</a>
+                        <a href="" class="button">Customer Service</a>
+                        <a href="" class="button">Privacy Policy</a>
+                        <a href="" class="button">Site Map</a>
+                        <a href="" class="button">Search Terms</a>
+                        <a href="" class="button">Advanced Search</a>
+                        <a href="" class="button">Orders and Returns</a>
+                        <a href="" class="button">Contact Us</a>
+                    </div>
+                </div>
+                <div class="quicklinks2"><span>NEWSLETTER</span>
+                    <p>Receive the latest news and offers</p>
+                    <input class="form-control form-control-lg" type="text" placeholder="Enter your email">
+                    <a href="" class="button">SUBMIT</a>
+                    <img src="./img/rims4.jpg" alt="rims4">
+                    <div class="networks"><a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-pinterest fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!--            /*INFOSHOPandCONTACT*/-->
+            <div class="infoshop_contact">
+                <div class="infoshop"><b>INFORMATIONS</b>
+                    <p>© Car Shops Limited (t/as CarShop Bristol, Cardiff, Doncaster, Northampton, Norwich and Swindon). Registered Office: 2 Penman Way, Grove Park, Leicester, LE19 1ST Registered No: 0XX000 VAT Registration No: 000 0000 00
+                        The Car People Limited (t/as CarShop Manchester, Sheffield, Wakefield and Warrington). Registered Office: 2 Penman Way, Grove Park, Leicester, LE19 1ST Registered No: 0XX000 VAT Registration No: 000 0000 00</p>
+                </div>
+                <div class="contact"><b>CONTACT</b>
+                    <ul>
+                        <li>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; 123, Main Road, Your City, NY 1234
+                        </li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +38 068 200 35 98</li>
+                        <li><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp; 7 Days a week from 10:00 am to 6:00 pm</li>
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; info@cars.in.ua</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <!--            footer-->
+            <div class="footer">
+                <div class="footer_left"><b>Car<span>Store</span></b><span>&nbsp; © 2017 . All Rights Reserved.</span></div>
+                <div class="footer_right">
+                    <i class="fa fa-cc-amex fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-cc-paypal fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-cc-visa fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-cc-mastercard fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-google-wallet fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-cc-diners-club fa-2x" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body></html>
