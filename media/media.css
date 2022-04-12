@@ -1,0 +1,2281 @@
+@media all and (max-width:1600px) {
+
+    .parent {
+        margin: 0 auto;
+        width: 1200px;
+    }
+
+    .hedader {
+        width: 1200px;
+    }
+
+    .breadcrumb,
+    .sideMenu,
+    .cars,
+    .featuredproducts,
+    .container,
+    .footer {
+        width: 1200px;
+        margin: 0px;
+    }
+
+    .choice {
+        padding-left: 0;
+        text-align: end;
+    }
+
+    .label {
+        margin-left: 20px;
+        width: 205px;
+    }
+
+    .labelinfo {
+        margin-left: 190px;
+    }
+
+    .information {
+        margin-left: 0;
+    }
+
+    /*wrapper*/
+    .wrapper {
+        height: 750px;
+        width: 1200px;
+    }
+
+    .cols {
+        display: block;
+    }
+
+    .col {
+        display: inline-block;
+        width: calc(50% - 3rem);
+        margin-left: 26px;
+    }
+
+    /*PRODUCT*/
+    .product,
+    .othersproduct {
+        display: contents;
+    }
+
+    .headlights,
+    .brakes,
+    .rims,
+    .carseat {
+        width: 1200px;
+    }
+
+    .rims {
+        background-color: #303030;
+    }
+
+    .carseat {
+        background-color: #1C1C1C;
+    }
+
+    .headlights img {
+        left: 667px;
+    }
+
+    .headlights span,
+    .brakes span,
+    .rims span,
+    .carseat span {
+        left: 200px;
+    }
+
+    .headlights span:last-of-type,
+    .brakes span:last-of-type,
+    .rims span:last-of-type,
+    .carseat span:last-of-type {
+        left: 200px;
+    }
+
+    .brakes img {
+        left: 727px;
+    }
+
+    .rims img:nth-child(2),
+    .carseat img {
+        left: 754px;
+    }
+
+    .rims img:last-of-type {
+        left: 828px;
+    }
+
+    .rims > img {
+        left: 1083px;
+    }
+
+    .bloksproducts {
+        display: contents;
+    }
+
+    .accessories,
+    .optics,
+    .sportsseats {
+        display: inline-block;
+        margin-left: 108px;
+        margin-right: 0px;
+    }
+
+    .acoustics,
+    .disks {
+        display: inline-block;
+        margin-right: 0px;
+        margin-left: 229px;
+    }
+
+    /*Featured Products*/
+    .featuredproducts {
+        height: 1100px;
+    }
+
+    /*SALE*/
+    .sale {
+        zoom: 0.742;
+    }
+
+    /*container*/
+
+    .container {
+        height: auto;
+    }
+
+    .quicklinks {
+        width: 1150px;
+    }
+
+    .quicklinks1 {
+        width: 550px;
+    }
+
+    .list-group {
+        width: 350px;
+    }
+
+    .quicklinks2 {
+        width: 630px;
+    }
+
+    .container hr {
+        width: 1200px;
+        margin-left: -17px;
+    }
+
+    /*INFOSHOPandCONTACT*/
+    .infoshop_contact {
+        width: auto;
+    }
+
+    .contact {
+        width: 310px;
+        margin-left: 130px;
+    }
+
+    /*    footer*/
+
+    .footer {
+        margin: 0;
+    }
+
+    .footer_left {
+        width: 660px;
+        margin: 30px;
+    }
+
+    .footer_right {
+        margin: 30px;
+    }
+
+    /*    about-pages*/
+
+    .CarStore-page7,
+    .about-page7,
+    .footer-page1,
+    .footer-all {
+        width: 1200px;
+    }
+
+    .about-page7 {
+        height: 975px;
+    }
+
+    .about {
+        width: 1100px;
+    }
+
+    .footer-all {
+        justify-content: space-around;
+    }
+
+    /*    services-pages*/
+    .CarStore-page6,
+    .services-page6,
+    .services-labe {
+        width: 1200px;
+    }
+
+    .services-page6 {
+        height: 1410px;
+    }
+
+    .services-container {
+        display: block;
+    }
+
+    .services-information,
+    .services-container img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .services-page6 hr {
+        width: auto;
+    }
+
+    /*    reviews-pages*/
+    .CarStore-page8,
+    .reviews-page8 {
+        width: 1200px;
+    }
+
+    .reviews-page8 {
+        height: 1000px;
+    }
+
+    .audi-reviews p,
+    .bmw-reviews p {
+        font-size: 18px;
+        margin: 20px;
+        width: 520px;
+    }
+
+    .reviews-information,
+    .reviews-information2 {
+        display: inline-flex;
+        width: 1128px;
+        margin-left: -15px;
+    }
+
+    .reviews-information2 .thumb-wrap {
+        margin-left: 42px;
+    }
+
+    /*    locations-pages*/
+    .CarStore-page9,
+    .locations-page9 {
+        width: 1200px;
+    }
+
+    .locations-container {
+        zoom: 0.8;
+    }
+
+    .locations-page9 {
+        height: 800px;
+    }
+
+    /*    contacts-pages*/
+
+    .CarStore-page10,
+    .contacts-page10 {
+        width: 1200px;
+    }
+
+    .about img {
+        margin: 17px;
+    }
+
+    .contacts-information ul {
+        font-size: 35px;
+    }
+
+    /*    Featured Products-pages*/
+    .CarStore-page1,
+    .accessories-page1,
+    .avto-accessories,
+    .CarStore-page2,
+    .optics-page2,
+    .avto-optics,
+    .CarStore-page3,
+    .sportsseats-page3,
+    .avto-sportsseats,
+    .CarStore-page4,
+    .acoustics-page4,
+    .avto-acoustics,
+    .CarStore-page5,
+    .disks-page5,
+    .avto-disks {
+        width: 1200px;
+    }
+
+    .turbines,
+    .pistons,
+    .shock-absorbers,
+    .filters,
+    .suspension,
+    .accumulators,
+    .positron,
+    .alpine,
+    .pioneer,
+    .cadence,
+    .jbl,
+    .hifonics,
+    .bmw,
+    .volkswagen,
+    .volvo,
+    .audi,
+    .ford,
+    .toyota,
+    .sparco,
+    .bride,
+    .recaro,
+    .jb,
+    .prodrive,
+    .hsp {
+        width: 350px;
+        margin-left: 37px;
+    }
+
+    .accessories-container {
+        margin-top: -40px;
+    }
+
+    .accessories-page1 {
+        height: 1165px;
+    }
+
+    .acoustics-page4 {
+        height: 1200px;
+    }
+
+    .sportsseats-page3 {
+        height: 1212px;
+    }
+
+    .disks-container,
+    .disks-container2 {
+        zoom: 0.88;
+        margin-left: -18px;
+    }
+
+    .disks-page5 {
+        height: 1078px;
+    }
+
+    .accessories-page1 hr,
+    .optics-page2 hr,
+    .sportsseats-page3 hr,
+    .acoustics-page4 hr,
+    .disks-page5 hr,
+    .services-page6 hr {
+        width: auto;
+    }
+
+    .positron img,
+    .hifonics img,
+    .bmw img,
+    .volkswagen img,
+    .audi img,
+    .ford img {
+        zoom: 0.9;
+    }
+}
+
+@media all and (max-width:1250px) {
+
+    .parent {
+        margin: 0 auto;
+        width: 800px;
+    }
+
+    .hedader {
+        width: 800px;
+    }
+
+    .breadcrumb,
+    .sideMenu,
+    .cars,
+    .featuredproducts,
+    .container,
+    .footer {
+        width: 800px;
+        margin: 0px;
+    }
+
+    .choice {
+        padding-left: 0;
+        text-align: end;
+    }
+
+    hr {
+        width: 800px;
+    }
+
+    .label,
+    .label span {
+        margin-left: 0px;
+        font-size: 37px;
+        margin-top: 10px;
+    }
+
+    .label li:nth-child(2) {
+        font-size: 11.5px;
+    }
+
+    .labelinfo {
+        margin-left: 0px;
+        margin-top: 28px;
+        width: 450px;
+    }
+
+    .labelinfo span,
+    .labeladd i {
+        font-size: 15px;
+    }
+
+    .fa-2x {
+        font-size: 17px;
+    }
+
+    .labeladd {
+        padding-left: 20px;
+    }
+
+    .labeladd li:nth-child(1),
+    .labeladd li:nth-child(2),
+    .labeladd li:nth-child(3),
+    .labeladd li:nth-child(4) {
+        padding: 7px 12px 0px 12px;
+    }
+
+    .labelinfo li:nth-child(2) {
+        font-size: 12px;
+        padding-top: 0;
+    }
+
+    .information {
+        margin-left: 0;
+        width: 800px;
+    }
+
+    /*    breadcrumb*/
+
+    .breadcrumb {
+        padding-left: 0;
+        justify-content: space-around;
+    }
+
+    .breadcrumb li {
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+
+    /*wrapper*/
+    .wrapper {
+        height: 750px;
+        width: 800px;
+    }
+
+    .cols {
+        display: block;
+    }
+
+    .col {
+        display: inline-block;
+        width: calc(50% - 3rem);
+        margin-left: 26px;
+    }
+
+    /*PRODUCT*/
+    .product,
+    .othersproduct {
+        display: contents;
+    }
+
+    .headlights,
+    .brakes,
+    .rims,
+    .carseat {
+        width: 800px;
+    }
+
+    .rims {
+        background-color: #303030;
+    }
+
+    .carseat {
+        background-color: #1C1C1C;
+    }
+
+    .headlights img {
+        left: 350px;
+    }
+
+    .headlights span,
+    .brakes span,
+    .rims span,
+    .carseat span {
+        left: 15px;
+    }
+
+    .headlights span:last-of-type,
+    .brakes span:last-of-type,
+    .rims span:last-of-type,
+    .carseat span:last-of-type {
+        left: 15px;
+    }
+
+    .brakes img {
+        left: 427px;
+    }
+
+    .rims img:nth-child(2),
+    .carseat img {
+        left: 354px;
+    }
+
+    .rims img:last-of-type {
+        left: 428px;
+    }
+
+    .rims > img {
+        left: 683px;
+    }
+
+    /*Featured Products*/
+    .featuredproducts {
+        height: 1100px;
+    }
+
+    .bloksproducts {
+        display: contents;
+    }
+
+    .accessories,
+    .optics,
+    .sportsseats {
+        display: inline-block;
+        margin-left: 7px;
+        margin-right: 0px;
+    }
+
+
+    .acoustics,
+    .disks {
+        display: inline-block;
+        margin-right: 0px;
+        margin-left: 96px;
+    }
+
+    /*SALE*/
+    .sale {
+        zoom: 0.495;
+    }
+
+    /*container*/
+
+    .container {
+        height: auto;
+    }
+
+    .quicklinks {
+        width: 800px;
+        display: block;
+    }
+
+    .quicklinks1,
+    .quicklinks2 {
+        width: 800px;
+        margin-left: -15px;
+    }
+
+    .list-group {
+        width: 350px;
+        margin: 0px;
+        display: table-footer-group;
+    }
+
+    .quicklinks a {
+        margin-bottom: 0;
+    }
+
+    .quicklinks p {
+        width: auto;
+        margin-top: 0;
+    }
+
+    .quicklinks2 {
+        margin-top: 35px;
+    }
+
+    .quicklinks2 img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .quicklinks2 i {
+        font-size: 30px;
+    }
+
+    .container hr {
+        width: 800px;
+        margin-left: -17px;
+    }
+
+    /*INFOSHOPandCONTACT*/
+    .infoshop_contact {
+        width: auto;
+        display: block;
+    }
+
+    .infoshop,
+    .contact {
+        width: auto;
+    }
+
+    .contact {
+        margin-left: 0;
+    }
+
+    /*    footer*/
+
+    .footer {
+        margin: 0;
+    }
+
+    .footer_left {
+        width: 375px;
+        margin: 30px;
+    }
+
+    .footer_right {
+        margin: 30px;
+    }
+
+    /*    about-pages*/
+
+    .CarStore-page7,
+    .about-page7,
+    .footer-page1,
+    .footer-all,
+    .about-container,
+    .about {
+        width: 800px;
+    }
+
+    .about-information p {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .about-page7 {
+        height: 825px;
+    }
+
+    .footer-all {
+        justify-content: space-around;
+    }
+
+    .thumb-wrap {
+        position: relative;
+        padding-bottom: 56.25%;
+        /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+        height: 0;
+        overflow: hidden;
+    }
+
+    .thumb-wrap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-width: 0;
+        outline-width: 0;
+    }
+
+    /*    services-pages*/
+    .CarStore-page6,
+    .services-page6,
+    .services-labe {
+        width: 800px;
+    }
+
+    .services-page6 {
+        height: 1410px;
+    }
+
+    .services-container {
+        display: block;
+    }
+
+    .services-information,
+    .services-container img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .services-container img {
+        padding-top: 25px;
+    }
+
+    /*    reviews-pages*/
+    .CarStore-page8,
+    .reviews-page8 {
+        width: 800px;
+    }
+
+    .reviews-page8 {
+        height: 1630px;
+    }
+
+    .reviews-information,
+    .reviews-information2 {
+        display: block;
+        width: auto;
+        margin-left: 14px;
+        width: auto;
+    }
+
+    .audi-reviews p,
+    .bmw-reviews p {
+        width: auto;
+    }
+
+    .audi-reviews,
+    .bmw-reviews {
+        width: auto;
+    }
+
+    .audi-reviews p,
+    .bmw-reviews p {
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    .reviews-information2 .thumb-wrap {
+        margin-left: 0;
+    }
+
+    /*    locations-pages*/
+    .CarStore-page9,
+    .locations-page9 {
+        width: 800px;
+    }
+
+    .locations-container {
+        zoom: 0.6;
+    }
+
+    .locations-page9 {
+        height: 650px;
+    }
+
+    /*    contacts-pages*/
+
+    .CarStore-page10,
+    .contacts-page10 {
+        width: 800px;
+    }
+
+    .contacts-page10 {
+        height: 1300px;
+    }
+
+    .about img {
+        margin: 17px;
+    }
+
+    .contacts-information ul {
+        font-size: 25px;
+    }
+
+    /*    Featured Products-pages*/
+    .CarStore-page1,
+    .accessories-page1,
+    .avto-accessories,
+    .CarStore-page2,
+    .optics-page2,
+    .avto-optics,
+    .CarStore-page3,
+    .sportsseats-page3,
+    .avto-sportsseats,
+    .CarStore-page4,
+    .acoustics-page4,
+    .avto-acoustics,
+    .CarStore-page5,
+    .disks-page5,
+    .avto-disks {
+        width: 800px;
+    }
+
+    .turbines,
+    .pistons,
+    .shock-absorbers,
+    .filters,
+    .suspension,
+    .accumulators,
+    .bmw,
+    .volkswagen,
+    .volvo,
+    .audi,
+    .ford,
+    .toyota,
+    .sparco,
+    .bride,
+    .recaro,
+    .jb,
+    .prodrive,
+    .hsp {
+        width: 250px;
+        margin-left: 12px;
+        height: auto;
+    }
+
+    .sparco,
+    .bride,
+    .recaro,
+    .jb,
+    .prodrive,
+    .hsp {
+        height: 310px;
+    }
+
+    .bmw img,
+    .volkswagen img,
+    .volvo img,
+    .audi img,
+    .ford img,
+    .toyota img {
+        zoom: 0.66;
+    }
+
+    .positron,
+    .alpine,
+    .pioneer,
+    .cadence,
+    .jbl,
+    .hifonics {
+        width: 550px;
+        margin-top: 20px;
+        margin-left: 0px;
+        display: inline-block;
+    }
+
+    .accessories-container {
+        margin-top: -40px;
+    }
+
+    .acoustics-container,
+    .acoustics-container2 {
+        display: block;
+        margin-top: auto;
+    }
+
+    .accessories-page1 {
+        height: 1200px;
+    }
+
+    .optics-page2 {
+        height: 1010px;
+    }
+
+    .sportsseats-page3 {
+        height: 1100px;
+    }
+
+    .acoustics-page4 {
+        height: 2760px;
+    }
+
+    .turbines span,
+    .pistons span,
+    .shock-absorbers span,
+    .filters span,
+    .suspension span,
+    .accumulators span {
+        font-size: 17.5px;
+    }
+
+    .sportsseats-container span,
+    .sportsseats-container2 span {
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+
+    .sparco span,
+    .bride span,
+    .recaro span,
+    .jb span,
+    .prodrive span,
+    .hsp span {
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .bbs,
+    .tuff,
+    .oz-racing,
+    .alutec,
+    .ats,
+    .enkei {
+        width: 280px;
+        margin-left: 20px;
+    }
+
+    .bbs img,
+    .tuff img,
+    .oz-racing img,
+    .alutec img,
+    .ats img,
+    .enkei img {
+        zoom: 0.8;
+    }
+
+    .pistons img,
+    .shock-absorbers img,
+    .filters img {
+        zoom: 0.8;
+    }
+
+    .pistons img {
+        margin-bottom: 34px;
+    }
+
+    .disks-container,
+    .disks-container2 {
+        margin-left: -6px;
+    }
+
+    .avto-disks > p {
+        width: 798px;
+    }
+
+    .disks-page5 {
+        height: 1100px;
+    }
+
+    .positron img,
+    .alpine img,
+    .pioneer img,
+    .cadence img,
+    .jbl img,
+    .hifonics img {
+        zoom: 1.2;
+    }
+
+    .shock-absorbers img {
+        margin-bottom: 52px;
+    }
+
+    .filters img {
+        margin-bottom: 66px;
+    }
+
+}
+
+@media all and (max-width:845px) {
+
+    .parent {
+        margin: 0 auto;
+        width: 600px;
+    }
+
+    .hedader {
+        width: 600px;
+    }
+
+    .breadcrumb,
+    .sideMenu,
+    .cars,
+    .featuredproducts,
+    .container,
+    .footer {
+        width: 600px;
+        margin: 0px;
+    }
+
+    .choice {
+        padding-left: 0;
+        text-align: end;
+    }
+
+    hr {
+        width: 600px;
+    }
+
+    .label,
+    .label span {
+        margin-left: 0px;
+        font-size: 37px;
+        margin-top: 10px;
+    }
+
+    .label {
+        display: inline-block;
+        width: auto;
+    }
+
+    .label li:nth-child(2) {
+        font-size: 11.5px;
+    }
+
+    .labelinfo {
+        display: inline-block;
+        width: 400px;
+    }
+
+    .labelinfo span,
+    .labeladd i {
+        font-size: 15px;
+    }
+
+    .fa-2x {
+        font-size: 17px;
+    }
+
+    .labeladd {
+        width: auto;
+        padding-left: 45px;
+    }
+
+    .labeladd li:nth-child(1),
+    .labeladd li:nth-child(2),
+    .labeladd li:nth-child(3),
+    .labeladd li:nth-child(4) {
+        padding: 7px 50px 0px 50px;
+    }
+
+    .labelinfo li:nth-child(2) {
+        font-size: 12px;
+        padding-top: 0;
+    }
+
+    .labeladd li:nth-child(1) {
+        border-left: none;
+    }
+
+    .information {
+        margin-left: 0;
+        width: 600px;
+        height: auto;
+        display: block;
+    }
+
+    .sideMenu,
+    .label,
+    .labelinfo {
+        height: auto;
+        margin: 0px;
+    }
+
+    /*    breadcrumb*/
+
+    .breadcrumb {
+        padding-left: 0;
+        justify-content: space-around;
+    }
+
+    .breadcrumb li {
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+
+    /*wrapper*/
+    .wrapper {
+        height: auto;
+        width: 600px;
+    }
+
+    .cols {
+        display: block;
+    }
+
+    .col {
+        display: inline-block;
+        width: calc(100% - 1rem);
+        margin-left: 7px;
+    }
+
+    /*PRODUCT*/
+    .product,
+    .othersproduct {
+        display: contents;
+    }
+
+    .headlights,
+    .brakes,
+    .rims,
+    .carseat {
+        width: 600px;
+    }
+
+    .rims {
+        background-color: #303030;
+    }
+
+    .carseat {
+        background-color: #1C1C1C;
+    }
+
+    .headlights span,
+    .brakes span,
+    .rims span,
+    .carseat span {
+        top: auto;
+        left: 0px;
+        display: block;
+        text-align: center;
+        position: inherit;
+    }
+
+    .headlights span:last-of-type,
+    .brakes span:last-of-type,
+    .rims span:last-of-type,
+    .carseat span:last-of-type {
+        top: -30px;
+        left: 0px;
+        display: block;
+        text-align: center;
+        position: inherit;
+    }
+
+    .headlights img {
+        left: 114px;
+        zoom: 0.9;
+    }
+
+    .brakes img {
+        left: 160px;
+        zoom: 0.9;
+        top: 117px;
+    }
+
+    .rims img:nth-child(2) {
+        left: 154px;
+        zoom: 0.9;
+        top: 119px;
+    }
+
+    .rims img:last-of-type {
+        left: 228px;
+        zoom: 0.9;
+        top: 91px;
+    }
+
+    .rims > img {
+        left: 483px;
+        zoom: 0.9;
+        top: 90px;
+    }
+
+    .carseat img {
+        left: 175px;
+        zoom: 0.9;
+        top: 91px;
+    }
+
+    /*Featured Products*/
+    .featuredproducts {
+        height: 1300px;
+    }
+
+    .nameproducts {
+        padding-top: 15px;
+    }
+
+    .bloksproducts {
+        display: contents;
+    }
+
+    .accessories,
+    .optics,
+    .sportsseats,
+    .acoustics {
+        display: inline-block;
+        margin-left: 29px;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .disks {
+        margin: 20px 0px 0px 168px;
+    }
+
+    /*SALE*/
+    .sale {
+        zoom: 0.371;
+    }
+
+    /*container*/
+
+    .container {
+        height: auto;
+    }
+
+    .quicklinks {
+        width: 600px;
+        display: block;
+    }
+
+    .quicklinks1,
+    .quicklinks2 {
+        width: 600px;
+        margin-left: -15px;
+        font-size: 35px;
+    }
+
+    .list-group {
+        width: 350px;
+        margin: 0px;
+        display: table-footer-group;
+    }
+
+    .quicklinks a {
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+
+    .quicklinks p {
+        width: auto;
+        margin-top: 0;
+    }
+
+    .quicklinks2 {
+        margin-top: 35px;
+    }
+
+    .quicklinks2 img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .quicklinks2 i {
+        font-size: 30px;
+    }
+
+    .container hr {
+        width: 600px;
+        margin-left: -17px;
+    }
+
+    .button {
+        width: 286px;
+    }
+
+    /*INFOSHOPandCONTACT*/
+    .infoshop_contact {
+        width: auto;
+        display: block;
+    }
+
+    .infoshop,
+    .contact {
+        width: auto;
+    }
+
+    .contact {
+        margin-left: 0;
+    }
+
+    /*    footer*/
+
+    .footer {
+        margin: 0;
+    }
+
+    .footer_left {
+        width: 375px;
+        margin: 30px;
+    }
+
+    .footer_right {
+        margin: 42px;
+    }
+
+    .footer_right i:nth-child(6) {
+        padding-left: 5px;
+    }
+
+    /*    about-pages*/
+
+    .CarStore-page7,
+    .about-page7,
+    .footer-page1,
+    .footer-all,
+    .about,
+    .about-container {
+        width: 600px;
+    }
+
+    .about-information p {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .about-page7 {
+        height: 735px;
+    }
+
+    .footer-all {
+        display: block;
+    }
+
+    .footer-page1,
+    .footer_right1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /*    services-pages*/
+
+    .CarStore-page6,
+    .services-page6,
+    .services-labe {
+        width: 600px;
+    }
+
+    .services-page6 {
+        height: 1400px;
+    }
+
+    .services-container {
+        display: block;
+    }
+
+    .services-information,
+    .services-container img {
+        display: block;
+        margin: 0 auto;
+        width: 600px;
+    }
+
+    .services-container img {
+        padding-top: 25px;
+    }
+
+    /*    reviews-pages*/
+    .CarStore-page8,
+    .reviews-page8 {
+        width: 600px;
+    }
+
+    .reviews-page8 {
+        height: 1570px;
+    }
+
+    .reviews-information,
+    .reviews-information2 {
+        display: block;
+    }
+
+    .audi-reviews,
+    .bmw-reviews {
+        width: auto;
+    }
+
+    .audi-reviews p,
+    .bmw-reviews p {
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    /*    locations-pages*/
+    .CarStore-page9,
+    .locations-page9 {
+        width: 600px;
+    }
+
+    .locations-container {
+        zoom: 0.4;
+    }
+
+    .locations-page9 {
+        height: 500px;
+    }
+
+    /*    contacts-pages*/
+
+    .CarStore-page10,
+    .contacts-page10 {
+        width: 600px;
+    }
+
+    .contacts-page10 {
+        height: 1200px;
+    }
+
+    .about img {
+        margin: 17px;
+        zoom: 0.9;
+    }
+
+    .contacts-information ul {
+        font-size: 20px;
+    }
+
+    /*    Featured Products-pages*/
+    .CarStore-page1,
+    .accessories-page1,
+    .avto-accessories,
+    .CarStore-page2,
+    .optics-page2,
+    .avto-optics,
+    .CarStore-page3,
+    .sportsseats-page3,
+    .avto-sportsseats,
+    .CarStore-page4,
+    .acoustics-page4,
+    .avto-acoustics,
+    .CarStore-page5,
+    .disks-page5,
+    .avto-disks {
+        width: 600px;
+    }
+
+    .turbines,
+    .pistons,
+    .shock-absorbers,
+    .filters,
+    .suspension,
+    .accumulators {
+        width: 530px;
+        height: 373px;
+        display: inline-block;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .bbs,
+    .tuff,
+    .oz-racing,
+    .alutec,
+    .ats,
+    .enkei,
+    .bmw,
+    .volkswagen,
+    .volvo,
+    .audi,
+    .ford,
+    .toyota,
+    .sparco,
+    .bride,
+    .recaro,
+    .jb,
+    .prodrive,
+    .hsp {
+        width: 500px;
+        display: inline-block;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .bbs img,
+    .tuff img,
+    .oz-racing img,
+    .alutec img,
+    .ats img,
+    .enkei img {
+        zoom: 1.0;
+    }
+
+    .accessories-container,
+    .accessories-container2,
+    .disks-container,
+    .disks-container2,
+    .optics-container,
+    .optics-container2,
+    .sportsseats-container,
+    .sportsseats-container2 {
+        zoom: 1.0;
+        display: block;
+        margin-top: 0;
+    }
+
+    .avto-disks > p {
+        width: 580px;
+    }
+
+    .pistons,
+    .shock-absorbers,
+    .filters,
+    .suspension,
+    .accumulators {
+        margin-top: 20px;
+    }
+
+    .accessories-page1 {
+        height: 2780px;
+    }
+
+    .optics-page2 {
+        height: 2790px;
+    }
+
+
+    .sportsseats-page3 {
+        height: 2445px;
+    }
+
+    .acoustics-page4 {
+        height: 2820px;
+    }
+
+    .disks-page5 {
+        height: 2800px;
+    }
+
+    .accessories-container2 {
+        margin-top: auto;
+    }
+
+    .turbines span,
+    .pistons span,
+    .shock-absorbers span,
+    .filters span,
+    .suspension span,
+    .accumulators span {
+        font-size: 24px;
+    }
+
+    .pistons img,
+    .shock-absorbers img,
+    .filters img {
+        zoom: 1;
+        margin-bottom: 0;
+    }
+
+    .bmw,
+    .volkswagen,
+    .volvo,
+    .audi,
+    .ford,
+    .toyota {
+        height: 373px;
+    }
+
+    .bmw img,
+    .volkswagen img,
+    .volvo img,
+    .audi img,
+    .ford img,
+    .toyota img {
+        zoom: 1.0;
+    }
+
+}
+
+@media all and (max-width:640px) {
+
+    .parent {
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    .hedader {
+        width: 400px;
+    }
+
+    .breadcrumb,
+    .sideMenu,
+    .cars,
+    .featuredproducts,
+    .container,
+    .footer {
+        width: 400px;
+        margin: 0px;
+    }
+
+    .choice {
+        padding-left: 0;
+        text-align: end;
+    }
+
+    .choice li {
+        margin-right: 22px;
+    }
+
+    hr {
+        width: 400px;
+    }
+
+    .label,
+    .label span {
+        margin-left: 0px;
+        font-size: 37px;
+        margin-top: 10px;
+    }
+
+    .label {
+        display: block;
+        width: auto;
+    }
+
+    .label li {
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+    }
+
+    .label li:nth-child(2) {
+        font-size: 11.5px;
+        text-align: center;
+    }
+
+
+    .labelinfo {
+        display: inline-block;
+        width: 400px;
+        text-align: center;
+    }
+
+    .labelinfo span,
+    .labeladd i {
+        font-size: 15px;
+    }
+
+    .labeladd a {
+        font-size: 12px;
+    }
+
+    .labelinfo i {
+        margin: 0;
+    }
+
+    .fa-2x {
+        font-size: 17px;
+    }
+
+    .labeladd {
+        width: auto;
+        padding-left: 55px;
+        padding-top: 0;
+    }
+
+    .labeladd li:nth-child(1),
+    .labeladd li:nth-child(2),
+    .labeladd li:nth-child(3),
+    .labeladd li:nth-child(4) {
+        padding: 7px 20px 0px 20px;
+    }
+
+    .labelinfo li:nth-child(2) {
+        font-size: 12px;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .labeladd li:nth-child(1) {
+        border-left: none;
+    }
+
+    .information {
+        margin-left: 0;
+        width: 400px;
+        height: auto;
+        display: block;
+    }
+
+    .sideMenu,
+    .label,
+    .labelinfo {
+        height: auto;
+        margin: 0px;
+    }
+
+    /*    breadcrumb*/
+
+    .breadcrumb {
+        padding-left: 0;
+        justify-content: flex-end;
+    }
+
+    .breadcrumb li {
+        margin-right: 0px;
+        padding-left: 0px;
+        font-size: 12px;
+    }
+
+    /*wrapper*/
+    .wrapper {
+        height: auto;
+        width: 400px;
+    }
+
+    .wrapper h1 {
+        font-size: 25px;
+    }
+
+    .cols {
+        display: block;
+    }
+
+    .col {
+        display: inline-block;
+        width: calc(100% - 1rem);
+        margin-left: 7px;
+    }
+
+    /*PRODUCT*/
+    .product,
+    .othersproduct {
+        display: contents;
+    }
+
+    .headlights,
+    .brakes,
+    .rims,
+    .carseat {
+        width: 400px;
+        height: 365px;
+    }
+
+    .rims {
+        background-color: #303030;
+    }
+
+    .carseat {
+        background-color: #1C1C1C;
+    }
+
+    .headlights span,
+    .brakes span,
+    .rims span,
+    .carseat span {
+        top: auto;
+        left: 0px;
+        display: block;
+        text-align: center;
+        position: inherit;
+    }
+
+    .headlights span:last-of-type,
+    .brakes span:last-of-type,
+    .rims span:last-of-type,
+    .carseat span:last-of-type {
+        top: -30px;
+        left: 0px;
+        display: block;
+        text-align: center;
+        position: inherit;
+    }
+
+    .headlights img {
+        left: 26px;
+        top: 140px;
+        zoom: 0.8;
+    }
+
+    .brakes img {
+        left: 86px;
+        zoom: 0.8;
+        top: 119px;
+    }
+
+    .rims img:nth-child(2) {
+        left: 54px;
+        zoom: 0.9;
+        top: 119px;
+    }
+
+    .rims img:last-of-type {
+        left: 128px;
+        zoom: 0.9;
+        top: 91px;
+    }
+
+    .rims > img {
+        left: 383px;
+        zoom: 0.9;
+        top: 90px;
+    }
+
+    .carseat img {
+        left: 117px;
+        zoom: 0.8;
+        top: 91px;
+    }
+
+    /*Featured Products*/
+    .featuredproducts {
+        height: 1950px;
+    }
+
+    .nameproducts {
+        padding-top: 15px;
+        font-size: 25px;
+    }
+
+    .bloksproducts {
+        display: contents;
+    }
+
+    .accessories,
+    .optics,
+    .sportsseats,
+    .acoustics,
+    .disks {
+        display: inline-block;
+        margin-left: 71px;
+        margin-right: 0px;
+        margin-top: 20px;
+        height: 345px;
+    }
+
+    /*SALE*/
+    .sale {
+        zoom: 0.247;
+    }
+
+    /*container*/
+
+    .container {
+        height: auto;
+    }
+
+    .quicklinks {
+        width: 400px;
+        display: block;
+        margin-top: 0px;
+    }
+
+    .quicklinks1,
+    .quicklinks2 {
+        width: 400px;
+        margin-left: -15px;
+        font-size: 35px;
+    }
+
+    .list-group {
+        width: 350px;
+        margin: 0px;
+        display: table-footer-group;
+    }
+
+    .quicklinks span {
+        font-size: 25px;
+    }
+
+    .quicklinks a {
+        margin-bottom: 0;
+        font-size: 10px;
+        width: 175px;
+    }
+
+    .quicklinks p {
+        width: auto;
+        margin-top: 0;
+        font-size: 13px;
+    }
+
+    .quicklinks2 {
+        margin-top: 0px;
+    }
+
+    .quicklinks2 img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        zoom: 0.7;
+    }
+
+    .quicklinks2 i {
+        font-size: 30px;
+    }
+
+    .container hr {
+        width: 400px;
+        margin-left: -17px;
+    }
+
+    .button {
+        width: 187px;
+        padding: 8px 18px;
+    }
+
+    .form-control {
+        width: 275px;
+    }
+
+    /*INFOSHOPandCONTACT*/
+    .infoshop_contact {
+        width: auto;
+        display: block;
+    }
+
+    .infoshop_contact b {
+        font-size: 25px;
+    }
+
+    .infoshop,
+    .contact {
+        width: auto;
+    }
+
+    .infoshop p {
+        font-size: 13px;
+    }
+
+    .contact li {
+        font-size: 13px;
+    }
+
+    .contact {
+        margin-left: 0;
+    }
+
+    /*    footer*/
+
+    .footer {
+        margin: 0;
+    }
+
+    .footer_left {
+        width: 375px;
+        margin: 10px;
+        font-size: 13px;
+    }
+
+    .footer_right {
+        margin: 10px;
+    }
+
+    .footer_right i:nth-child(6) {
+        padding-left: 5px;
+    }
+
+    /*    about-pages*/
+
+    .CarStore-page7,
+    .about-page7,
+    .footer-page1,
+    .footer-all,
+    .about,
+    .about-container {
+        width: 400px;
+    }
+
+    .about-information p {
+        margin-bottom: 15px;
+        font-size: 13px;
+        width: 380px;
+        margin: 0 auto;
+    }
+
+    .about span {
+        font-size: 25px;
+        padding-top: 15px;
+    }
+
+    .about-page7 {
+        height: 520px;
+    }
+
+    .footer-all {
+        display: block;
+    }
+
+    .footer-page1,
+    .footer_right1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .footer_left1 {
+        font-size: 17px;
+    }
+
+    /*    services-pages*/
+
+    .CarStore-page6,
+    .services-page6,
+    .services-labe {
+        width: 400px;
+    }
+
+    .services-page6 {
+        height: 1100px;
+    }
+
+    .services-container {
+        display: block;
+    }
+
+    .services-information,
+    .services-container img {
+        display: block;
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    .services-information p,
+    .services-reg p {
+        margin-bottom: 15px;
+        font-size: 13px;
+        width: 380px;
+        margin: 0 auto;
+    }
+
+    .services-information li {
+        font-size: 12px;
+    }
+
+    .services-labe span {
+        font-size: 25px;
+        padding-top: 15px;
+    }
+
+    .services-container img {
+        padding-top: 25px;
+    }
+
+    /*    reviews-pages*/
+    .CarStore-page8,
+    .reviews-page8 {
+        width: 400px;
+    }
+
+    .reviews-page8 {
+        height: 1230px;
+    }
+
+    .reviews-information,
+    .reviews-information2 {
+        display: block;
+    }
+
+    .audi-reviews,
+    .bmw-reviews {
+        width: auto;
+    }
+
+    .audi-reviews p,
+    .bmw-reviews p {
+        font-size: 13px;
+        margin: 20px;
+    }
+
+    /*    locations-pages*/
+    .CarStore-page9,
+    .locations-page9 {
+        width: 400px;
+    }
+
+    .locations-container {
+        zoom: 0.3;
+    }
+
+    .locations-page9 {
+        height: 390px;
+    }
+
+    /*    contacts-pages*/
+
+    .CarStore-page10,
+    .contacts-page10 {
+        width: 400px;
+    }
+
+    .contacts-page10 {
+        height: 1130px;
+    }
+
+    .contacts-information {
+        display: block;
+    }
+
+    .contacts-page10 .about img {
+        margin: 17px;
+        zoom: 0.7;
+    }
+
+    .about img {
+        margin: 17px;
+        zoom: 0.9;
+    }
+
+    .contacts-information ul {
+        font-size: 17px;
+    }
+
+    /***************************************    Featured Products-pages*/
+    .CarStore-page1,
+    .accessories-page1,
+    .avto-accessories,
+    .CarStore-page2,
+    .optics-page2,
+    .avto-optics,
+    .CarStore-page3,
+    .sportsseats-page3,
+    .avto-sportsseats,
+    .CarStore-page4,
+    .acoustics-page4,
+    .avto-acoustics,
+    .CarStore-page5,
+    .disks-page5,
+    .avto-disks {
+        width: 400px;
+    }
+
+    .turbines,
+    .pistons,
+    .shock-absorbers,
+    .filters,
+    .suspension,
+    .accumulators {
+        width: 330px;
+        height: 373px;
+        display: inline-block;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .positron,
+    .alpine,
+    .pioneer,
+    .cadence,
+    .jbl,
+    .hifonics,
+    .bbs,
+    .tuff,
+    .oz-racing,
+    .alutec,
+    .ats,
+    .enkei,
+    .bmw,
+    .volkswagen,
+    .volvo,
+    .audi,
+    .ford,
+    .toyota,
+    .sparco,
+    .bride,
+    .recaro,
+    .jb,
+    .prodrive,
+    .hsp {
+        width: 380px;
+        display: inline-block;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .bbs img,
+    .tuff img,
+    .oz-racing img,
+    .alutec img,
+    .ats img,
+    .enkei img {
+        zoom: 1.0;
+    }
+
+    .accessories-container,
+    .accessories-container2,
+    .disks-container,
+    .disks-container2,
+    .optics-container,
+    .optics-container2,
+    .sportsseats-container,
+    .sportsseats-container2 {
+        zoom: 1.0;
+        display: block;
+        margin-top: 0;
+    }
+
+    .pistons,
+    .shock-absorbers,
+    .filters,
+    .suspension,
+    .accumulators {
+        margin-top: 20px;
+    }
+
+    .accessories-page1 {
+        height: 2780px;
+    }
+
+    .optics-page2 {
+        height: 2850px;
+    }
+
+
+    .sportsseats-page3 {
+        height: 2430px;
+    }
+
+    .acoustics-page4 {
+        height: 2820px;
+    }
+
+    .disks-page5 {
+        height: 2760px;
+    }
+
+    .accessories-container2 {
+        margin-top: auto;
+    }
+
+    .turbines span,
+    .pistons span,
+    .shock-absorbers span,
+    .filters span,
+    .suspension span,
+    .accumulators span {
+        font-size: 15px;
+    }
+
+    .avto-accessories > span,
+    .avto-acoustics > span,
+    .avto-disks > span,
+    .avto-optics > span,
+    .avto-sportsseats > span {
+        font-size: 25px;
+    }
+
+    .avto-accessories > p,
+    .avto-acoustics > p,
+    .avto-disks > p,
+    .avto-optics > p,
+    .avto-sportsseats > p {
+        font-size: 17px;
+        width: 380px;
+    }
+
+    .pistons img,
+    .shock-absorbers img,
+    .filters img {
+        zoom: 1;
+        margin-bottom: 0;
+    }
+
+    .bmw,
+    .volkswagen,
+    .volvo,
+    .audi,
+    .ford,
+    .toyota {
+        height: 373px;
+    }
+
+    .bmw img,
+    .volkswagen img,
+    .volvo img,
+    .audi img,
+    .ford img,
+    .toyota img,
+    .positron img,
+    .alpine img,
+    .pioneer img,
+    .cadence img,
+    .jbl img,
+    .hifonics img {
+        zoom: 1.0;
+    }
+
+}

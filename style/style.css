@@ -1,0 +1,1389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: black;
+}
+
+.parent,
+.hedader,
+.CarStore-page1,
+.CarStore-page2,
+.CarStore-page3,
+.CarStore-page4,
+.CarStore-page5,
+.CarStore-page6,
+.CarStore-page7,
+.CarStore-page8,
+.CarStore-page9,
+.CarStore-page10 {
+    width: 1616px;
+    margin: 0 auto;
+}
+
+.sideMenu {
+    width: 1616px;
+    height: 147px;
+    background-color: #212121;
+}
+
+hr {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: none;
+    height: 2px;
+    background-color: #3cdfdf;
+    color: #3cdfdf;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.choice {
+    padding-left: 974px;
+    padding-top: 18px;
+}
+
+.choice li {
+    font-family: 'Lato-Regular', sans-serif;
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 14px;
+}
+
+.choice a {
+    color: #FF3448;
+}
+
+.choice li:nth-child(3) {
+    border-right: solid 2px;
+    padding-right: 25px;
+    padding-top: 6px;
+    height: 28px;
+    color: #3cdfdf;
+}
+
+.choice li:nth-child(4) {
+    margin-left: -24px;
+}
+
+.information {
+    display: inline-flex;
+    margin-left: 226px;
+    width: 1200px;
+    height: 83px;
+    border: solid 2 px #3cdfdf;
+}
+
+/*label*/
+
+.label {
+    font-family: 'Lato-Bold', sans-serif;
+    height: 83px;
+    width: 185px;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+.label span {
+    font-family: 'Lato-Bold', sans-serif;
+    font-size: 45px;
+    color: #FF3448;
+    word-wrap: break-word;
+}
+
+.label li:nth-child(1) {
+    margin-bottom: -15px;
+}
+
+.label li:nth-child(2) {
+    font-family: 'Lato-Regular', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.labelinfo {
+    margin-top: 16px;
+    margin-left: 228px;
+    height: 83px;
+    width: 375px;
+    text-align: right;
+}
+
+.labelinfo span {
+    font-family: 'Lato-Bold', sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.labelinfo i {
+    color: #FF3448;
+    margin-left: 182px;
+}
+
+.labelinfo li:nth-child(2) {
+    font-family: 'Lato-Bold', sans-serif;
+    color: #A2A2A2;
+    font-size: 14px;
+    text-align: right;
+    padding-top: 5px;
+}
+
+.labeladd {
+    width: 415px;
+    height: 67px;
+    padding-top: 12px;
+    padding-left: 55px;
+    display: inline-flex;
+    text-align: center;
+}
+
+.labeladd i {
+    color: #FF3448;
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+
+.labeladd a {
+    font-family: 'Lato-Bold', sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+
+}
+
+.labeladd li:nth-child(1) {
+    border-right: solid 2px #3cdfdf;
+    border-left: solid 2px #3cdfdf;
+    padding: 7px 22px 0px 22px;
+}
+
+.labeladd li:nth-child(2) {
+    border-right: solid 2px #3cdfdf;
+    padding: 7px 22px 0px 22px;
+}
+
+.labeladd li:nth-child(3) {
+    padding: 7px 22px 0px 22px;
+}
+
+/*breadcrumb*/
+
+.breadcrumb {
+    width: 1616px;
+    height: 56px;
+    background-color: #030303;
+    padding-left: 255px;
+    padding-top: 16px;
+    border: solid 2px #3cdfdf;
+    margin-bottom: 0px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: none;
+}
+
+.breadcrumb li {
+    font-family: 'Lato-Bold', sans-serif;
+    display: inline;
+    margin-right: 40px;
+    font-size: 15px;
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #0ff,
+        0 0 80px #0ff,
+        0 0 90px #0ff,
+        0 0 100px #0ff,
+        0 0 150px #0ff;
+}
+
+.breadcrumb li a {
+    color: #FFFFFF;
+}
+
+/*wrapper*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'KronaOne-Regular, 'sans-serif;
+    color: #FF3448;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.wrapper {
+    width: 1616px;
+    height: 435px;
+    background-color: #212121;
+    margin: 0 auto;
+    border: solid 2px #3cdfdf;
+}
+
+.cols {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    width: calc(25% - 2rem);
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.container_wrapper {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.front,
+.back {
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-position: center;
+    -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-align: center;
+    min-height: 280px;
+    height: auto;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.back {
+    background: #cedce7;
+    background: -webkit-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+    background: -o-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+    background: linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+}
+
+.front:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    content: '';
+    display: block;
+    opacity: .6;
+    background-color: #000;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.container_wrapper:hover .front,
+.container_wrapper:hover .back {
+    -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.inner {
+    -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+    transform: translateY(-50%) translateZ(60px) scale(0.94);
+    top: 50%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 1px solid transparent;
+    -webkit-perspective: inherit;
+    perspective: inherit;
+    z-index: 2;
+}
+
+.container_wrapper .back {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.container_wrapper .front {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.container_wrapper:hover .back {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.container_wrapper:hover .front {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.front .inner p {
+    font-size: 27px;
+    margin-bottom: 190px;
+    position: relative;
+}
+
+.front .inner p:after {
+    content: '';
+    width: 4rem;
+    height: 2px;
+    position: absolute;
+    background: #C6D4DF;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -.75rem;
+}
+
+.front .inner span {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+@media screen and (max-width: 64rem) {
+    .col {
+        width: calc(33.333333% - 2rem);
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    .col {
+        width: calc(50% - 2rem);
+    }
+}
+
+@media screen and (max-width: 32rem) {
+    .col {
+        width: 100%;
+        margin: 0 0 2rem 0;
+    }
+}
+
+/*PRODUCT*/
+
+.product,
+.othersproduct {
+    width: 1616px;
+    height: 408px;
+    display: flex;
+    position: relative;
+}
+
+.headlights,
+.carseat {
+    width: 808px;
+    height: 408px;
+    background-color: #303030;
+    position: relative;
+}
+
+.headlights img {
+    position: absolute;
+    left: 367px;
+    top: 112px;
+}
+
+.headlights span {
+    font-size: 35px;
+    font-family: 'Lato-Bold', sans-serif;
+    color: #FFFFFF;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+}
+
+.headlights span:last-of-type {
+    font-size: 20px;
+    font-family: 'Lato-Bold', sans-serif;
+    color: #979696;
+    position: absolute;
+    left: 54px;
+    top: 216px;
+}
+
+.brakes,
+.rims {
+    width: 808px;
+    height: 408px;
+    background-color: #1C1C1C;
+    position: relative;
+}
+
+.brakes img {
+    position: absolute;
+    left: 402px;
+    top: 71px;
+}
+
+.brakes span {
+    font-size: 35px;
+    font-family: 'Lato-Bold', sans-serif;
+    color: #FFFFFF;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+}
+
+.brakes span:last-of-type {
+    font-size: 20px;
+    font-family: 'Lato-Bold', sans-serif;
+    color: #979696;
+    position: absolute;
+    left: 54px;
+    top: 216px;
+}
+
+.rims img:nth-child(2) {
+    position: absolute;
+    left: 354px;
+    top: 89px;
+}
+
+.rims img:last-of-type {
+    position: absolute;
+    left: 428px;
+    top: 49px;
+}
+
+.rims span {
+    font-size: 35px;
+    font-family: 'Lato-Bold', sans-serif;
+    color: #FFFFFF;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+}
+
+.rims span:last-of-type {
+    font-size: 20px;
+    font-family: 'Lato-Bold', sans-serif;
+    color: #979696;
+    position: absolute;
+    left: 54px;
+    top: 216px;
+}
+
+.carseat img {
+    position: absolute;
+    left: 439px;
+    top: 61px;
+}
+
+.carseat span {
+    font-size: 35px;
+    font-family: 'Lato-Bold', sans-serif;
+    color: #FFFFFF;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+}
+
+.carseat span:last-of-type {
+    font-size: 20px;
+    font-family: 'Lato-Bold', sans-serif;
+    color: #979696;
+    position: absolute;
+    left: 54px;
+    top: 216px;
+}
+
+.rims > img {
+    position: absolute;
+    left: 683px;
+    top: 49px;
+}
+
+/*Featured Products*/
+
+.featuredproducts {
+    width: 1616px;
+    height: 705px;
+    background-color: #282828;
+    border: solid 2px #3cdfdf;
+}
+
+.nameproducts {
+    font-family: 'Lato-Bold', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 70px;
+}
+
+.nameproducts hr {
+    color: #9C1C28;
+    background-color: #9C1C28;
+    height: 7px;
+    width: 173px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.bloksproducts {
+    display: inline-flex;
+    text-align: center;
+}
+
+.accessories {
+    width: 251px;
+    height: 373px;
+    background-color: #363636;
+    margin-right: 36px;
+    margin-left: 106.5px;
+    margin-top: 65px;
+    border: solid 2px #3cdfdf;
+}
+
+.bloksproducts a:hover {
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #0ff,
+        0 0 80px #0ff,
+        0 0 90px #0ff,
+        0 0 100px #0ff,
+        0 0 150px #0ff;
+}
+
+.scale {
+    transition: 1s;
+    /* Время эффекта */
+}
+
+.scale:hover {
+    transform: scale(1.2);
+    /* Увеличиваем масштаб */
+}
+
+.optics,
+.sportsseats,
+.acoustics,
+.disks {
+    font-family: 'Lato-Heavy', sans-serif;
+    width: 251px;
+    height: 373px;
+    background-color: #363636;
+    margin-right: 36px;
+    margin-top: 65px;
+    position: relative;
+    border: solid 2px #3cdfdf;
+}
+
+.accessories a {
+    font-family: 'Lato-Heavy', sans-serif;
+    color: #FF3448;
+    font-size: 17px;
+    position: relative;
+}
+
+.accessories img {
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 19px;
+}
+
+.price {
+    font-size: 17px;
+    font-family: 'Lato-Heavy', sans-serif;
+    color: #FFFFFF;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.stars {
+    font-size: 17px;
+    color: #FF3448;
+}
+
+.optics a {
+    font-family: 'Lato-Heavy', sans-serif;
+    color: #FF3448;
+    font-size: 17px;
+    position: relative;
+}
+
+.optics img {
+    position: relative;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.sportsseats a {
+    font-family: 'Lato-Heavy', sans-serif;
+    color: #FF3448;
+    font-size: 17px;
+    position: relative;
+}
+
+.sportsseats img {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.acoustics a {
+    font-family: 'Lato-Heavy', sans-serif;
+    color: #FF3448;
+    font-size: 17px;
+    position: relative;
+}
+
+.acoustics img {
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 53px;
+}
+
+.disks a {
+    font-family: 'Lato-Heavy', sans-serif;
+    color: #FF3448;
+    font-size: 17px;
+    position: relative;
+}
+
+.disks img {
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 21px;
+}
+
+
+/*CarStore-page1-page2-page3-page4-page5-page6-page7-page8-page9*/
+
+
+.accessories-page1,
+.optics-page2,
+.sportsseats-page3,
+.acoustics-page4,
+.disks-page5 {
+    width: 1616px;
+    height: 1178px;
+    background-color: #212121;
+}
+
+.avto-accessories,
+.avto-optics,
+.avto-sportsseats,
+.avto-acoustics,
+.avto-disks,
+.services-labe,
+.about {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.avto-accessories p,
+.avto-optics p,
+.avto-sportsseats p,
+.avto-acoustics p,
+.avto-disks p,
+.services-labe p,
+.about {
+    font-size: 20px;
+    font-family: 'Lato-Bold', sans-serif;
+    color: #979696;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.avto-accessories span,
+.avto-optics span,
+.avto-sportsseats span,
+.avto-acoustics span,
+.avto-disks span,
+.services-labe span,
+.about span {
+    font-family: 'KronaOne-Regular', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 30px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.accessories-container,
+.accessories-container2,
+.optics-container,
+.optics-container2,
+.sportsseats-container,
+.sportsseats-container2,
+.acoustics-container,
+.acoustics-container2,
+.disks-container,
+.disks-container2 {
+    display: inline-flex;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.avto-accessories span:hover,
+.avto-optics span:hover,
+.avto-sportsseats span:hover,
+.avto-acoustics span:hover,
+.avto-disks span:hover,
+.accessories-container p:hover,
+.accessories-container2 p:hover,
+.optics-container p:hover,
+.optics-container2 p:hover,
+.sportsseats-container p:hover,
+.sportsseats-container2 p:hover,
+.acoustics-container p:hover,
+.acoustics-container2 p:hover,
+.disks-container p:hover,
+.disks-container2 p:hover,
+.services-page6 span:hover,
+.about-page7 span:hover,
+.reviews-page8 span:hover,
+.locations-page9 span:hover,
+.contacts-page10 span:hover {
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #0ff,
+        0 0 80px #0ff,
+        0 0 90px #0ff,
+        0 0 100px #0ff,
+        0 0 150px #0ff;
+}
+
+.accessories-page1 hr,
+.optics-page2 hr,
+.sportsseats-page3 hr,
+.acoustics-page4 hr,
+.disks-page5 hr,
+.services-page6 hr {
+    margin-top: 50px;
+    width: 1616px;
+    margin-left: 0;
+}
+
+.turbines,
+.pistons,
+.shock-absorbers,
+.filters,
+.suspension,
+.accumulators,
+.sparco,
+.bride,
+.recaro,
+.jb,
+.prodrive,
+.hsp {
+    width: 400px;
+    height: 373px;
+    background-color: #363636;
+    margin-left: 50px;
+    margin-top: 65px;
+    border: solid 2px #3cdfdf;
+    position: relative;
+}
+
+.turbines img {
+    margin-top: 50px;
+}
+
+.turbines img,
+.pistons img,
+.shock-absorbers img,
+.filters img,
+.suspension img,
+.accumulators img {
+    margin-bottom: 10px;
+}
+
+.turbines span,
+.pistons span,
+.shock-absorbers span,
+.filters span,
+.suspension span,
+.accumulators span,
+.sparco span,
+.bride span,
+.recaro span,
+.jb span,
+.prodrive span,
+.hsp span {
+    font-size: 20px;
+    font-family: 'Lato-Bold', sans-serif;
+    color: #979696;
+    margin-top: -34px;
+}
+
+.turbines p,
+.pistons p,
+.shock-absorbers p,
+.filters p,
+.suspension p,
+.accumulators p {
+    font-family: 'Lato-Heavy', sans-serif;
+    color: #FF3448;
+    font-size: 17px;
+    position: relative;
+    margin: 15px;
+}
+
+.bmw,
+.volkswagen,
+.volvo,
+.audi,
+.ford,
+.toyota,
+.sparco,
+.bride,
+.recaro,
+.jb,
+.prodrive,
+.hsp,
+.positron,
+.alpine,
+.pioneer,
+.cadence,
+.jbl,
+.hifonics,
+.bbs,
+.tuff,
+.oz-racing,
+.alutec,
+.ats,
+.enkei {
+    width: 400px;
+    height: 373px;
+    background-color: #363636;
+    margin-left: 50px;
+    margin-top: 65px;
+    border: solid 2px #3cdfdf;
+    position: relative;
+}
+
+.bmw p,
+.volkswagen p,
+.volvo p,
+.audi p,
+.ford p,
+.toyota p,
+.sparco p,
+.bride p,
+.recaro p,
+.jb p,
+.prodrive p,
+.hsp p,
+.positron p,
+.alpine p,
+.pioneer p,
+.cadence p,
+.jbl p,
+.hifonics p,
+.bbs p,
+.tuff p,
+.oz-racing p,
+.alutec p,
+.ats p,
+.enkei p {
+    font-family: 'Lato-Heavy', sans-serif;
+    color: #FF3448;
+    font-size: 25px;
+    position: relative;
+    margin: 15px;
+}
+
+.sparco span,
+.bride span,
+.recaro span,
+.jb span,
+.prodrive span,
+.hsp span {
+    font-size: 20px;
+    font-family: 'Lato-Bold', sans-serif;
+    color: #979696;
+    margin-top: 20px;
+}
+
+.positron span,
+.alpine span,
+.pioneer span,
+.cadence span,
+.jbl span,
+.hifonics span {
+    font-size: 20px;
+    font-family: 'Lato-Bold', sans-serif;
+    color: #979696;
+}
+
+.prodrive img,
+.hifonics img {
+    margin-bottom: 20px;
+}
+
+.hifonics img {
+    margin-top: 40px;
+}
+
+.jbl img {
+    margin-top: -11px;
+}
+
+
+/*footer-page1*/
+
+.footer-page1 {
+    width: 1616px;
+
+    margin-top: 33px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.footer-all {
+    width: 1296px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer_left1 {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Lato-Regular';
+}
+
+.footer_left1 b {
+    font-family: 'Lato-Bold', sans-serif;
+}
+
+.footer_left1 b span {
+    color: #FF3448;
+}
+
+.footer_right1 {
+    text-align: right;
+}
+
+.footer_right1 i {
+    color: #FFFFFF;
+    padding-right: 25px;
+}
+
+.footer_right1 i:nth-child(6) {
+    padding-right: 0px;
+}
+
+/*CarStore-page2*/
+
+
+
+
+/*SALE*/
+
+.sale {
+    width: 1616px;
+    height: 516px;
+}
+
+.sale img {
+    max-width: 100%;
+    max-height: 100%;
+    top: 50%;
+    left: 50%;
+}
+
+.line {
+    height: 159px;
+    width: 3px;
+    border: solid #FFFFFF;
+    transform: translate(802px, -643px);
+    display: inline-flex;
+}
+
+.procent {
+    width: 1616px;
+    transform: translateY(-428px);
+    margin-top: 34px;
+}
+
+.procent tr {
+    font-family: 'KronaOne-Regular', sans-serif;
+    font-size: 73px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.procent tr:nth-child(3n+2) {
+    font-family: 'KronaOne-Regular', sans-serif;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.procent tr:nth-child(3n+3) {
+    font-family: 'KronaOne-Regular', sans-serif;
+    font-size: 13px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.procent tr:nth-child(4n+4) {
+    text-align: center;
+    font-size: 55px;
+}
+
+.procent a {
+    font-family: 'Lato-Bold', sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    background-color: #9C1C28;
+    border-radius: 34px;
+    width: 187px;
+    height: 39px;
+}
+
+.btn {
+    border: none;
+    line-height: 1.4;
+}
+
+/*container*/
+.container {
+    width: 1616px;
+    height: 1095px;
+    border: solid 2px #3cdfdf;
+    max-width: none;
+    margin-top: -6px;
+    background-color: #030303;
+    text-align: center;
+}
+
+.quicklinks {
+    width: 1336px;
+    margin: 0 auto;
+    margin-top: 35px;
+    display: inline-flex;
+}
+
+.quicklinks1,
+.quicklinks2 {
+    font-family: 'KronaOne-Regular', sans-serif;
+    font-size: 50px;
+    color: #FFFFFF;
+    width: 668px;
+    text-align: center;
+}
+
+.list-group {
+    margin: 0 auto;
+    width: 360px;
+    margin-top: 25px;
+}
+
+.quicklinks a {
+    color: #FF3448;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.list-group-item {
+    z-index: 2;
+    color: #fff;
+    background-color: black;
+    border-color: #007bff;
+    text-align: center;
+}
+
+.list-group-item-action {
+    width: 330px;
+    border-radius: 34px;
+}
+
+.button {
+    border: solid 2px #007bff;
+    color: white;
+    width: 350px;
+    border-radius: 34px;
+    padding: 10px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: rgba(0, 0, 0, 0);
+    color: #3cdfdf;
+    box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+.quicklinks2 p {
+    font-family: 'KronaOne-Regular', sans-serif;
+    font-size: 20px;
+    color: #FF3448;
+    width: 668px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form-control {
+    width: 400px;
+    margin: 0 auto;
+    font-size: 15px;
+    border: solid 3px #007bff;
+}
+
+.quicklinks2 a {
+    width: 200px;
+}
+
+.container hr {
+    width: 1336px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: none;
+    height: 3px;
+    background-color: #3cdfdf;
+    color: #3cdfdf;
+}
+
+.networks i {
+    color: #FFFFFF;
+    padding-right: 25px;
+}
+
+.networks i:hover {
+    color: #FF3448;
+}
+
+/*INFOSHOPandCONTACT*/
+.infoshop_contact {
+    width: 1336px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: inline-flex;
+}
+
+.infoshop {
+    font-family: 'Lato-Bold', sans-serif;
+    width: 668px;
+}
+
+.infoshop b {
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.infoshop p {
+    color: #979696;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.contact {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.contact ul {
+    margin-top: 20px;
+}
+
+.contact b {
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.contact i {
+    color: #FF3448;
+}
+
+.contact li {
+    color: #979696;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+/*footer*/
+.footer {
+    width: 1336px;
+    display: inline-flex;
+    margin-top: 33px;
+    text-align: left;
+}
+
+.footer_left {
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 950px;
+    font-family: 'Lato-Regular';
+}
+
+.footer_left b {
+    font-family: 'Lato-Bold', sans-serif;
+}
+
+.footer_left b span {
+    color: #FF3448;
+}
+
+.footer_right {
+    margin: 0 auto;
+}
+
+.footer_right i {
+    color: #FFFFFF;
+    padding-right: 25px;
+}
+
+.footer_right i:nth-child(6) {
+    padding-right: 0px;
+}
+
+/*SERVICES-page*/
+
+.services-page6,
+.about-page7,
+.reviews-page8,
+.locations-page9,
+.contacts-page10 {
+    width: 1616px;
+    height: 935px;
+    background-color: #212121;
+}
+
+.services-container {
+    display: inline-flex;
+}
+
+.services-information {
+    width: 635px;
+    margin-right: 145px;
+}
+
+.services-information li {
+    font-family: 'KronaOne-Regular', sans-serif;
+    color: #FF3448;
+    border: solid 2px #007bff;
+    border-radius: 34px;
+    font-size: 15px;
+    text-align: center;
+    background-color: black;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.services-container img {
+    padding-top: 56px;
+}
+
+.services-reg p {
+    padding-bottom: 10px;
+}
+
+.about-information p {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.reviews-information,
+.reviews-information2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 15px;
+    border: solid 2px #3cdfdf;
+}
+
+.audi-reviews,
+.bmw-reviews {
+    width: 600px;
+    text-align: justify;
+}
+
+.contacts-container,
+.contacts-information {
+    display: inline-flex;
+}
+
+.list-group {
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 25px;
+}
+
+.contacts-information ul {
+    font-size: 40px;
+    text-align: justify;
+}
+
+.contacts-information img {
+    border: solid 2px #3cdfdf;
+    margin-right: 70px;
+}
+
+.contacts-information li {
+    padding: 10px;
+}
+
+.contacts-information i {
+    color: #FF3448;
+}
+
+.about img {
+    margin: 20px;
+    margin-right: 127px;
+}
